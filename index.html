@@ -1,390 +1,261 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Start your development with JohnDoe landing page.">
-    <meta name="author" content="Devcrud">
-    <title>MADAKA RAMA KRISHNA</title>
-    <!-- font icons -->
-    <link rel="stylesheet" href="/themify-icons.css">
-    <!-- Bootstrap + JohnDoe main styles -->
-    <link rel="stylesheet" href="/johndoe.css">
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RK PORTFOLIO</title>
+    <link rel="MAIN" sizes="180x180" href="/img1.jpg">
 
-<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
-    <a href="components.html" class="btn btn-primary btn-component" data-spy="affix" data-offset-top="600"><i
-            class="ti-shift-left-alt"></i> Components</a>
-    <header class="header">
-        <div class="container">
-            <ul class="social-icons pt-3">
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-facebook"
-                            aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-twitter"
-                            aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-google"
-                            aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-instagram"
-                            aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-github"
-                            aria-hidden="true"></i></a></li>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand animate__animated animate__fadeInLeft " href="#">MADAKA RAMA KRISHNA</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link " href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Internships</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li> 
             </ul>
-            <div class="header-content">
-                <h4 class="header-subtitle">Hello, I am</h4>
-                <h1 class="header-title">Madaka Rama Krishna</h1>
-                <h6 class="header-mono">Frond end Developer</h6>
-                <button class="btn btn-primary btn-rounded"><i class="ti-printer pr-2"></i>Print Resume</button>
-            </div>
+          </div>
         </div>
-    </header>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510">
-        <div class="container">
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
-                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a href="#home" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#about" class="nav-link">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#internship" class="nav-link">Internship</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav brand">
-                    <img src="/img2.jpg" alt="" class="brand-img">
-                    <li class="brand-txt">
-                        <h5 class="brand-title">Rama Krishna</h5>
-                        <div class="brand-subtitle">Web Developer</div>
-                    </li>
-                </ul>
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a href="#skills" class="nav-link">Skills</a>
-                    </li>
-                    <li class="nav-item last-item">
-                        <a href="#contact" class="nav-link">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <div class="container-fluid">
-        <div id="about" class="row about-section">
-            <div class="col-lg-4 about-card">
-                <h3 class="font-weight-light">Who am I ?</h3>
-                <span class="line mb-5"></span>
-                <h5 class="mb-3">A Web Designer / Developer Located In Our Lovely Earth</h5>
-                <p class="mt-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit.sit amet, Qui deserunt
-                    consequatur fugit repellendusillo voluptas?</p>
-                <button class="btn btn-outline-danger"><i class="icon-down-circled2 "></i>Download My CV</button>
-            </div>
-            <div class="col-lg-4 about-card">
-                <h3 class="font-weight-light">Personal Info</h3>
-                <span class="line mb-5"></span>
-                <ul class="mt40 info list-unstyled">
-                    <li><span>Birthdate</span> : 13/06/2002</li>
-                    <li><span>Email</span> : rama67102@gmail.com</li>
-                    <li><span>Phone</span> : +91 817998890*</li>
-                    <li><span>Address</span> : 36-29/1, Urvasi, visakhapatnam, 530006</li>
-                </ul>
-                <ul class="social-icons pt-3">
-                    <li class="social-item"><a class="social-link" href="#"><i class="ti-facebook"
-                                aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" href="#"><i class="ti-twitter"
-                                aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" href="#"><i class="ti-google"
-                                aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" href="#"><i class="ti-instagram"
-                                aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" href="#"><i class="ti-github"
-                                aria-hidden="true"></i></a></li>
-                </ul>
-            </div>
-            <div class="col-lg-4 about-card">
-                <h3 class="font-weight-light">My Expertise</h3>
-                <span class="line mb-5"></span>
-                <div class="row">
-                    <div class="col-1 text-danger pt-1"><i class="ti-widget icon-lg"></i></div>
-                    <div class="col-10 ml-auto mr-3">
-                        <h6>MATLAB</h6>
-                        <p class="subtitle"> Electrical Circuits Designing using MATLAB</p>
-                        <hr>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-1 text-danger pt-1"><i class="ti-paint-bucket icon-lg"></i></div>
-                    <div class="col-10 ml-auto mr-3">
-                        <h6>Web Development</h6>
-                        <p class="subtitle">HTML, CSS, JAVA</p>
-                        <hr>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-1 text-danger pt-1"><i class="ti-stats-up icon-lg"></i></div>
-                    <div class="col-10 ml-auto mr-3">
-                        <h6>Embedded System</h6>
-                        <p class="subtitle">Automation of systems using Aurdino and Rasberry Pie</p>
-                        <hr>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Internship Section -->
-    <section class="section" id="internship">
-        <div class="container">
-            <h1 class="mb-5">My <span class="text-danger">Internship</span></h1>
-            <div class="card-group">
-                <div class="card">
-                  <img src="/salesforce.png" class="card-img-top" alt="salesforce">
-                  <div class="card-body">
-                    <h5 class="card-title">Salesforce</h5>
-                    <p class="card-text">salesforce developer</p>
-                    <ul>
-                        <li>Duration : September to November</li>
-                        <li>Sponsors : Smartinternz</li>
-                    </ul>
-                    <p class="card-text"><small class="text-body-secondary"><a href="https://smartinternz.com/internships/salesforce_certificates/c7b37a482b73fdc8678befad9b25ea29"></a>Click here for certificate</small></p>
-                  </div>
-                </div>
-                <div class="card">
-                  <img src="/blueprism.png" class="card-img-top" alt="blueprism">
-                  <div class="card-body">
-                    <h5 class="card-title">Blue Prism</h5>
-                    <p class="card-text">Robotic Process Automation</p>
-                    <ul>
-                        <li>August to October</li>
-                        <li>APSCHE & EDU Skills</li>
-                    </ul>
-                    <p class="card-text"><small class="text-body-secondary">Click here for certificate</small></p>
-                  </div>
-                </div>
-                <div class="card">
-                  <img src="/DB dolutions.png" class="card-img-top" alt="dbsolution">
-                  <div class="card-body">
-                    <h5 class="card-title">DB Solutions</h5>
-                    <p class="card-text">Traine</p>
-                    <ul>
-                        <li>Duration : July to December,2021</li>
-                        <li>Location : Industrial Park,Agnampudi,Visakhpatnam</li>
-                        <li>Hands on Training</li>
-                    </ul>
-                    <p class="card-text"><small class="text-body-secondary"> <a href=""></a>Click here for certificate</small></p>
-                  </div>
-                </div>
-              </div>
-        </div>
-        
-    </section>
+      </nav>
 
-    <!-- End of Internship section -->
+      <section class="bannerBgImage" id="home">
+         <div class="container-fluid">
+             <div class="row">                 
+                 <div class="col-md-12 text-left bannerText">
+                     <h2 class="bannerTitle animate__animated animate__fadeInRight">Hi There!!</h2>
+                     <p class="bannerDesc animate__animated animate__fadeInLeft">Welcome To My Profile</p>
+                 </div>
+             </div>
+            </div>
+      </section>
 
-    <!-- Skills start -->
-    <section class="section" id="skills">
-        <div class="container">
-            <h2 class="mb-5">My <span class="text-danger">Skills</span></h2>
+      <section data-aos="zoom-in-up">
+        <div class="container" id="about">
+            <h1 class="text-center">About Me</h1>
             <div class="row">
-                <div class="blog-card">
-                    <div class="img-holder">
-                        <img src="/blog1.jpg"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                    </div>
-                    <div class="content-holder">
-                        <h6 class="title">Bootstrap (CSS Framework)</h6>
-
-                        <p class="post-details">
-                            <a href="#">By: People</a>
-                            <a href="#"><i class="ti-heart text-danger"></i> 69</a>
-                            <a href="#"><i class="ti-comment"></i> 69</a>
-                        </p>
-
-                        <p>Bootstap have a wide range of HTML,CSS and Java Script Codes which will be haelpful for non technical coders</p>
-
-                        <p><b>HTML,CSS,JAVA Script</b>
-                        </p>
-                        <p>.</p>
-
-                        <a href="#" class="read-more">Read more <i class="ti-angle-double-right"></i></a>
-                    </div>
-                </div><!-- end of blog wrapper -->
-
-                <!-- blog-card -->
-                <div class="blog-card">
-                    <div class="img-holder">
-                        <img src="/blog2.jpg"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                    </div>
-                    <div class="content-holder">
-                        <h6 class="title">Programming Languages</h6>
-
-                        <p class="post-details">
-                            <a href="#">By: Admin</a>
-                            <a href="#"><i class="ti-heart text-danger"></i> 456</a>
-                            <a href="#"><i class="ti-comment"></i> 264</a>
-                        </p>
-
-                        <p>I know basics of these programming languages, C, C++, Java and Python. And I'm trying to learn new languages also to catch up with upcoming software requirements.</p>
-
-                        <a href="#" class="read-more">Read more <i class="ti-angle-double-right"></i></a>
-                    </div>
-                </div><!-- end of blog wrapper -->
-                <!-- blog-card -->
-                <div class="blog-card">
-                    <div class="img-holder">
-                        <img src="/blog3.jpg"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                    </div>
-                    <div class="content-holder">
-                        <h4 class="title">Responsive Web Design</h4>
-
-                        <p class="post-details">
-                            <a href="#">By: Admin</a>
-                            <a href="#"><i class="ti-heart text-danger"></i> 431</a>
-                            <a href="#"><i class="ti-comment"></i> 312</a>
-                        </p>
-
-                        <p>I know building responsive pages with CSS Flexbox, CSS Media Queries and In-build CSS and JavaScript libraries.</p>
-                        <p><b>Currently Intermediate level on these technologoies, And I'm working on improving my skill on this tech.</b></p>
-
-                        <a href="#" class="read-more">Read more <i class="ti-angle-double-right"></i></a>
-                    </div>
-                </div><!-- end of blog wrapper -->
-
-            </div>
-        </div>
-    </section>
-    <!-- Skills End -->
-    <!-- Contact Start -->
-    <section class="section" id="contact">
-        <div class="contaier">
-            <h2 class="mb-5">Contact <span class="text-danger">Me</span></h2>
-            <div class="section contact" id="contact">
-                <div id="map" class="map"></div>
-                <div class="container">
-                    <h3 class="mb-5"><span class="text-danger">Contact</span>Me</h3>
+                <div class="col-md-4" data-aos="fade-right">
+                    <img src="img2.jpg" alt="passportPicture" class="card-img img-fluid">
+                </div>
+                <div class="col-md-8">
+                  <p>I am a dedicated, organized and methodical individual. I have good interpersonal skills, am an excellent team worker and am keen and very willing to learn and develop new skills. I am reliable and dependable and often seek new responsibilities within a wide range of employment areas. I have an active and dynamic approach to work and getting things done. I am determined and decisive. I identify and develop opportunities</p>
                     <div class="row">
-                        <div class="col-lg-8">
-                            <div class="contact-form-card">
-                                <h4 class="contact-title">Send a message</h4>
-                                <form action="">
-                                    <div class="form-group">
-                                        <input class="form-control" type="text" placeholder="Name *" required>
-                                    </div>
-                                    <div class="form-group">
-                                        <input class="form-control" type="email" placeholder="Email *" required>
-                                    </div>
-                                    <div class="form-group">
-                                        <textarea class="form-control" id=" placeholder=" Message * rows="7"
-                                            required></textarea>
-                                    </div>
-                                    <div class="form-group ">
-                                        <button type="submit" class="form-control btn btn-primary">Send Message</button>
-                                    </div>
-                                </form>
-                            </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li><b>Name</b> : Madaka Rama Krishna</li>
+                                <li><b>Age</b> : 21</li>
+                                <li><b>Occupation</b> : Under Graduate</li>
+                            </ul>
                         </div>
-                        <div class="col-lg-4">
-                            <div class="contact-info-card">
-                                <h4 class="contact-title">Get in touch</h4>
-                                <div class="row mb-2">
-                                    <div class="col-1 pt-1 mr-1">
-                                        <i class="ti-mobile icon-md"></i>
-                                    </div>
-                                    <div class="col-10 ">
-                                        <h6 class="d-inline">Phone : <br> <span class="text-muted">+91 817998890*</span></h6>
-                                    </div>
-                                </div>
-                                <div class="row mb-2">
-                                    <div class="col-1 pt-1 mr-1">
-                                        <i class="ti-map-alt icon-md"></i>
-                                    </div>
-                                    <div class="col-10">
-                                        <h6 class="d-inline">Address :<br> <span class="text-muted">36-29/1, Urvasi, visakhapatnam, 530006
-                                                India</span></h6>
-                                    </div>
-                                </div>
-                                <div class="row mb-2">
-                                    <div class="col-1 pt-1 mr-1">
-                                        <i class="ti-envelope icon-md"></i>
-                                    </div>
-                                    <div class="col-10">
-                                        <h6 class="d-inline">Email :<br> <span class="text-muted">rama67102@gmail.com</span></h6>
-                                    </div>
-                                </div>
-                                <ul class="social-icons pt-4">
-                                    <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-facebook"
-                                                aria-hidden="true"></i></a></li>
-                                    <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-twitter"
-                                                aria-hidden="true"></i></a></li>
-                                    <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-google"
-                                                aria-hidden="true"></i></a></li>
-                                    <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-instagram"
-                                                aria-hidden="true"></i></a></li>
-                                    <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-github"
-                                                aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li><b>Technologies Working on</b> : Automation</li>
+                            </ul>                
+                        </div>
+                        <div class="col-md-8">
+                            <h2><div class="text-center"><b>Education Details</b></div></h2>
+                            <ul>
+                              <li><b>Graduation</b> : Dadi Institute of Engineering and Technology</li>
+                              <li><b>Diploma</b> : Dadi Institute of Engineering and Technology</li>
+                              <li><b>Secondary School</b> : Visvodaya Aided High School</li>
+                              <li><b>Primary School</b> : Marias Day,Kolkata</li>
+                            </ul>
+                          </div>
                         </div>
                     </div>
-        
+                    <div class="row">
+                        <p>The Above Details Are All About Myself.,I am pursuing In Dadi Institute of Engineering And Technology-B.Tech 4th Year EEE Depatment and i am also an active member in ISTE Professional Body .And I am very Good at ESports</p>
+                    </div>
                 </div>
             </div>
         </div>
-
-    </section>
-    <!-- Contact end -->
-
-    
-    <footer class="footer py-3">
+      </section>
+      
+      <section id="services" data-aos="zoom-out-up">
         <div class="container">
-            <p class="small mb-0 text-light">
-                &copy;
-                <script>document.write(new Date().getFullYear())</script> Created <i
-                    class="ti-heart text-danger"></i> By <a href="" target="_blank"><span
-                        class="text-danger" title="Bootstrap 4 Themes and Dashboards">Rama Krishna,#RK</span></a>
-            </p>
+            <h1 class="text-center">Internships</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card my-3"> 
+                        <div class="card-body">
+                          <h5 class="card-title text-center"><i class="bi bi-filetype-html BIcon"></i><b>Salesforce Developer</b></h5>
+                          <p class="card-text">
+                            <ul>
+                                <li>Designation : Intern</li>
+                                <li>Duration : August to October,2022</li>
+                                <li>Location :  San Francisco, California, USA</li>
+                            </ul>
+                          </p>  
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card my-3">
+                        <div class="card-body">
+                          <h5 class="card-title text-center"><i class="bi bi-filetype-html BIcon"></i><b>Robotic Process Automation</b></h5>
+                          <p class="card-text">
+                            <ul>
+                                <li>Designation : Intern</li>
+                                <li>Duration : September to November,2022</li>
+                                <li>Location : ******</li>
+                            </ul>
+                          </p>  
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card my-3">
+                        <div class="card-body">
+                          <h5 class="card-title text-center"><i class="bi bi-filetype-html BIcon"></i><b>AI & Machine learning</b></h5>
+                          <p class="card-text">
+                            <ul>
+                                <li>Designation : Intern</li>
+                                <li>Duration : 1 Month</li>
+                                <li>Location : ******</li>
+                            </ul>
+                          </p>  
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card my-3">
+                        <div class="card-body">
+                          <h5 class="card-title text-center"><i class="bi bi-filetype-html BIcon"></i><b>Embedded Systems</b></h5>
+                          <p class="card-text">
+                            <ul>
+                                <li>Designation : Intern</li>
+                                <li>Duration : 10 days</li>
+                                <li>Location : ******</li>
+                            </ul>
+                          </p>  
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card my-3">
+                        <div class="card-body">
+                          <h5 class="card-title text-center"><i class="bi bi-filetype-html BIcon"></i><b>Energy Literacy Training</b></h5>
+                          <p class="card-text">Certified for being a active participant in Energy Literacu training by Energy Swaraj Foundation.</p>  
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card my-3">
+                        <div class="card-body">
+                          <h5 class="card-title text-center"><i class="bi bi-filetype-html BIcon"></i><b>DB Solutions</b></h5>
+                          <p class="card-text">
+                            <ul>
+                                <li>Designation : Traine</li>
+                                <li>Duration : July to December,2021</li>
+                                <li>Location : Industrial Park,Aganampudi</li>
+                              </ul>
+                          </p>  
+                        </div>
+                      </div>          
+            </div>
         </div>
-    </footer>
+      <section>  
 
-    <!-- core  -->
-    <script src="/jquery-3.4.1.js"></script>
-    <script src="/bootstrap.bundle.js"></script>
+      <section id="portfolio" data-aos="flip-up">
+        <div class="container">
+            <h1 class="text-center">Projects</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card mb-3">
+                        <img src="/card-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Community Service Project</h5>
+                          <p class="card-text">Created an Awareness on how to utilize renwalbe energy like solar energy for houses and irrigation system</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-3">
+                        <img src="/card-2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Portfolio website</h5>
+                          <p class="card-text">Develpoed portfolio site using HTML and CSS</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+      </section> 
 
-    <!-- bootstrap 3 affix -->
-    <script src="/bootstrap.affix.js"></script>
+      <section id="contact">
+        <div class="container-fluid">
+            <h1 class="text-center" data-aos="zoom-in">Connect with me!!</h1>
+            <div class="row">
+                <div class="col-md-6" data-aos="zoom-in-right"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3800.043406990405!2d83.23257757490158!3d17.742593792475866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3967e23ffc2bfd%3A0x8f7053ba6e84e8b3!2sNAD%20Flyover%2C%20Nad%20Junction%2C%20Visakhapatnam%2C%20Andhra%20Pradesh%20530027!5e0!3m2!1sen!2sin!4v1688203240284!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                <div class="col-md-6" data-aos="zoom-out-left">
+                    <form>
+                      <div class="mb-3" data-aos="zoom-out-left">
+                        <label for="fullName" class="form-label">full Name</label>
+                        <input type="text" class="form-control" id="fullName" placeholder="Enter Your Full Name">
+                      </div>
+                      <div class="mb-3" data-aos="zoom-out-left">
+                        <label for="emailInput" class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="emailInput" placeholder="Enter Your Email Address">
+                      </div>
+                      <div class="mb-3" data-aos="zoom-out-left">
+                        <label for="teleInput" class="form-label">Contact Number</label>
+                        <input type="tel" class="form-control" id="teleInput" placeholder="Enter Your Contact Number">
+                      </div>
+                      <div class="mb-3" data-aos="zoom-out-left">
+                        <label for="textArea" class="form-label">Enter Your Query Here</label>
+                        <textarea class="form-control" id="textArea" rows="3" placeholder="Type Your Query Here"></textarea>
+                      </div>
+                      <div class="col-auto" data-aos="zoom-in">
+                        <button type="submit" class="btn btn-primary mb-3">Submit</button>
+                      </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+      </section>
 
-    <!-- Isotope  -->
-    <script src="/isotope.pkgd.js"></script>
+      <footer id="footer">
+        <div class="container-fluid bg-dark py-2">
+          <div class="mt-4 text-center px-1">
+            <a href="https://github.com/Ramakrishna916" target="_blank" rel="noopener noreferrer"><i class="bi bi-github bIcon"></i></a>
+            <a href="https://www.linkedin.com/in/ramakrishna-b88763217/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin bIcon"></i></a>
+            <a href="rama67102@gmail.com" target="_blank" rel="noopener noreferrer"><i class="bi bi-envelope-at-fill bIcon"></i></a>
+          </div>
+        </div>
+      </footer>
 
-    <!-- Google mpas -->
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtme10pzgKSPeJVJrG1O3tjR6lk98o4w8&callback=initMap"></script>
-   <!-- JohnDoe js -->
-    <script src="/johndoe.js"></script>
-
-</body>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
